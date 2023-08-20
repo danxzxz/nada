@@ -1,0 +1,30 @@
+programa
+{
+	
+	
+	inclua biblioteca Graficos --> g
+	inclua biblioteca Util
+ --> u
+	
+	funcao inicio()
+	{
+		
+		bemvindo()
+		
+	}
+	funcao bemvindo (){
+		cadeia usuario
+
+		escreva("------------------SEJA BEM-VINDO EXPLORADOR------------------------")
+		u.aguarde(2500)
+		limpa()
+		escreva("HOJE VOCÊ EMBARCARÁ EM UMA JORNADA MÍSTICA E CHEIA DE MISTÉRIOS")
+		u.aguarde(2000)
+		limpa()
+		escreva("MAS PRIMEIRO ESCOLHA SEU NOME DE EXPLORADOR!\n|")
+		leia(usuario)	
+		limpa()
+		escreva(usuario, " era um camponês humilde, do interior de Roraima que não tinha muitas esperanças para o futuro.\nNo sítio onde você vivia não havia escolas nas redondezas, logo",usuario, "não tinha amigos, e nem estudo.") 
+	}	
+	
+}
